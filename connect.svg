@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+        <defs>
+          <style>
+            @keyframes nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(6px); } }
+            .arrow-nudge { animation: nudge 1.4s infinite ease-in-out; }
+          </style>
+        </defs>
+        <rect width="1200" height="320" fill="#0d0e16" rx="16"></rect>
+        <rect x="35" y="25" width="1130" height="270" fill="rgba(18, 20, 32, 0.85)" rx="16" stroke="rgba(244,114,182,0.4)" stroke-width="1.5"></rect>
+
+        <g transform="translate(70, 55)">
+          <rect width="330" height="210" fill="#141724" rx="12" stroke="rgba(249,115,22,0.3)"></rect>
+          <text x="165" y="85" font-size="44" text-anchor="middle">🥷👉</text>
+          <text x="165" y="135" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="18" fill="#f97316" text-anchor="middle">Summon Rupesh!</text>
+          <text x="165" y="162" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">Click a scroll on the right to connect</text>
+        </g>
+
+        <g transform="translate(435, 55)">
+          <rect x="0" y="0" width="690" height="60" fill="#141724" rx="10" stroke="rgba(249,115,22,0.3)"></rect>
+          <text x="30" y="36" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#fff">🐙 GitHub Profile — github.com/Rupesh1541</text>
+          <text x="640" y="36" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#f97316" class="arrow-nudge">→</text>
+
+          <rect x="0" y="75" width="690" height="60" fill="#141724" rx="10" stroke="rgba(34,211,238,0.3)"></rect>
+          <text x="30" y="111" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#fff">✉️ Direct Email — rupesh15415811h@gmail.com</text>
+          <text x="640" y="111" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#22d3ee" class="arrow-nudge">→</text>
+
+          <rect x="0" y="150" width="690" height="60" fill="#141724" rx="10" stroke="rgba(234,179,8,0.3)"></rect>
+          <text x="30" y="186" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="16" fill="#fff">🎮 Location &amp; Guild — Hyderabad • Coding Head &amp; Gamer</text>
+          <text x="640" y="186" font-family="Inter, system-ui, sans-serif" font-size="20" fill="#eab308" class="arrow-nudge">⚡</text>
+        </g>
+      </svg>
